@@ -20,7 +20,6 @@ A sleek web app to manage your personal finances — track your income, expenses
 ---
 
 ## 📂 Project File Structure  
-Main project folder name  
 **smart_budget_tracker**
 ---
 smart_budget_tracker/  

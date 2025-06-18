@@ -22,28 +22,34 @@ A sleek web app to manage your personal finances — track your income, expenses
 ## 📁 Project Structure
 
 ---
-smart_budget_tracker/
-├── app/
-│   ├── static/
-│   │   ├── css/
-│   │   │   └── style.css
-│   │   └── js/
-│   │       └── charts.js
-│   ├── templates/
-│   │   ├── base.html
-│   │   ├── index.html
-│   │   └── dashboard.html
-│   ├── __init__.py
-│   ├── routes.py
-│   └── models.py
-├── instance/
-│   └── budget.db
-├── LICENSE
-├── .gitignore
-├── config.py
-├── run.py
-├── requirements.txt
-└── README.md
+📦 smart_budget_tracker
+│
+├── 📂 app/
+│   ├── 📂 static/
+│   │   ├── 📂 css/
+│   │   │   └── style.css           # Main styling file
+│   │   └── 📂 js/
+│   │       └── charts.js           # Chart.js for visualization
+│   │
+│   ├── 📂 templates/
+│   │   ├── base.html               # Base layout (extends to other pages)
+│   │   ├── index.html              # Home or landing page
+│   │   └── dashboard.html          # Budget dashboard with graphs
+│   │
+│   ├── __init__.py                 # Initialize the Flask app
+│   ├── routes.py                   # Flask routes (endpoints)
+│   ├── models.py                   # Database models (schemas)
+│
+├── 📂 instance/
+│   └── budget.db                   # SQLite database file
+│
+├── LICENSE                         # MIT License
+├── .gitignore                      # Git ignore rules
+├── config.py                       # App configuration file
+├── requirements.txt               # Required Python packages
+├── run.py                          # Run the Flask app
+└── README.md                       # Project documentation
+
 ---
 
 ## ⚙️ Installation & Local Setup

@@ -20,6 +20,8 @@ A sleek web app to manage your personal finances — track your income, expenses
 ---
 
 ## 📁 Project Structure
+
+---
 smart_budget_tracker/
 ├── app/
 │   ├── static/
@@ -42,9 +44,6 @@ smart_budget_tracker/
 ├── run.py
 ├── requirements.txt
 └── README.md
-
-
-
 ---
 
 ## ⚙️ Installation & Local Setup

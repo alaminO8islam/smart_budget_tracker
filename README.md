@@ -20,27 +20,29 @@ A sleek web app to manage your personal finances — track your income, expenses
 ---
 
 ## 📁 Project Structure
-
 smart_budget_tracker/
 ├── app/
-│ ├── static/
-│ │ ├── css/
-│ │ │ └── style.css
-│ │ └── js/
-│ │ └── charts.js
-│ ├── templates/
-│ │ ├── base.html
-│ │ ├── index.html
-│ │ └── dashboard.html
-│ ├── init.py
-│ ├── routes.py
-│ └── models.py
+│   ├── static/
+│   │   ├── css/
+│   │   │   └── style.css
+│   │   └── js/
+│   │       └── charts.js
+│   ├── templates/
+│   │   ├── base.html
+│   │   ├── index.html
+│   │   └── dashboard.html
+│   ├── __init__.py
+│   ├── routes.py
+│   └── models.py
 ├── instance/
-│ └── budget.db
+│   └── budget.db
+├── LICENSE
 ├── .gitignore
 ├── config.py
 ├── run.py
-└── requirements.txt
+├── requirements.txt
+└── README.md
+
 
 
 ---
@@ -95,4 +97,23 @@ git push -u origin main
 ---
 
 ## 🛡️ License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. 
+
+---
+
+## 🤝 Contributing
+Contributions are welcome! To contribute:
+
+Fork the repository
+
+Create a new branch (git checkout -b feature/your-feature)
+
+Commit your changes (git commit -m "Add your feature")
+
+Push to the branch (git push origin feature/your-feature)
+
+Create a pull request
+
+
+
+

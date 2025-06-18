@@ -19,37 +19,36 @@ A sleek web app to manage your personal finances — track your income, expenses
 
 ---
 
-## 📁 Project Structure
-
+## 📂 Project File Structure  
+Main project folder name  
+**smart_budget_tracker**
 ---
-📦 smart_budget_tracker
+smart_budget_tracker/
+├── app/                        # Core Flask app
+│   ├── __init__.py            # Initialize Flask app instance
+│   ├── models.py              # Database schema
+│   ├── routes.py              # Route handlers (views/controllers)
 │
-├── 📂 app/
-│   ├── 📂 static/
-│   │   ├── 📂 css/
-│   │   │   └── style.css           # Main styling file
-│   │   └── 📂 js/
-│   │       └── charts.js           # Chart.js for visualization
-│   │
-│   ├── 📂 templates/
-│   │   ├── base.html               # Base layout (extends to other pages)
-│   │   ├── index.html              # Home or landing page
-│   │   └── dashboard.html          # Budget dashboard with graphs
-│   │
-│   ├── __init__.py                 # Initialize the Flask app
-│   ├── routes.py                   # Flask routes (endpoints)
-│   ├── models.py                   # Database models (schemas)
+│   ├── static/                # Static assets
+│   │   ├── css/
+│   │   │   └── style.css      # Main stylesheet
+│   │   └── js/
+│   │       └── charts.js      # Chart.js for data visualization
 │
-├── 📂 instance/
-│   └── budget.db                   # SQLite database file
+│   ├── templates/             # HTML templates
+│   │   ├── base.html          # Layout template
+│   │   ├── index.html         # Home/Landing page
+│   │   └── dashboard.html     # Budget tracking dashboard
 │
-├── LICENSE                         # MIT License
-├── .gitignore                      # Git ignore rules
-├── config.py                       # App configuration file
-├── requirements.txt               # Required Python packages
-├── run.py                          # Run the Flask app
-└── README.md                       # Project documentation
-
+├── instance/
+│   └── budget.db              # SQLite local database
+│
+├── config.py                  # App configuration settings
+├── run.py                     # Entry point for running the Flask app
+├── requirements.txt           # Python dependencies
+├── LICENSE                    # MIT License file
+├── .gitignore                 # Files to ignore in Git
+└── README.md                  # Project documentation
 ---
 
 ## ⚙️ Installation & Local Setup
